@@ -1,0 +1,30 @@
+.h1 {
+  padding: 20px 0 0 22px;
+  font-size: 70px;
+  line-height: 82px;
+}
+
+.icon {
+  display: block;
+  margin: 20px auto;
+  width: 180px;
+  height: 150px;
+}
+
+.footerStatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 10px;
+  p {
+    padding-left: 10px;
+  }
+  .buttonFavorite {
+    margin-right: 10px;
+    width: 26px;
+    background-color: white;
+    cursor: pointer;
+  }
+}

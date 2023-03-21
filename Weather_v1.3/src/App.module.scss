@@ -1,0 +1,10 @@
+.app {
+  width: 600px;
+  height: 447px;
+  border: 1px solid black;
+  margin: 250px auto;
+  .windows {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,19 @@
+.tabsItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  a {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-right: 1px solid black;
+    font-size: 18px;
+    flex: 0 1 33.3%;
+  }
+  a:hover {
+    background-color: black;
+    color: white;
+  }
+  a:last-child {
+    border: none;
+  }
+}

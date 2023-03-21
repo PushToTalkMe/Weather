@@ -18,7 +18,7 @@ function RightWindow() {
       <h1>Added Locations:</h1>
       <div>
         <ul>
-          {favorite.map((city, index) => {
+          {favorite.map((city: any, index: any) => {
             return (
               <li
                 key={index}
@@ -33,7 +33,7 @@ function RightWindow() {
                   className={styles.buttonDelete}
                   onClick={() => dispatch(deleteFavoriteCity(city))}
                 >
-                  <img src="src/assets/img/close.png" alt="delete" />
+                  <img src="./img/close.png" alt="delete" />
                 </button>
               </li>
             );

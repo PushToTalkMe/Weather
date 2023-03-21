@@ -20,10 +20,7 @@ function Card() {
             <li className={styles.detail}>Feels like: {feelsLike}</li>
           </ul>
           <div>
-            <img
-              src={"src/assets/img/" + icon(description)}
-              alt={description}
-            />
+            <img src={"./img/" + icon(description)} alt={description} />
           </div>
         </div>
       </div>

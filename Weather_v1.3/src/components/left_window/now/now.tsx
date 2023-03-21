@@ -16,7 +16,7 @@ function Now() {
       <h1 className={styles.h1}>{temp}</h1>
       <img
         className={styles.icon}
-        src={"src/assets/img/" + icon(description)}
+        src={"./img/" + icon(description)}
         alt={description}
       />
       <div className={styles.footerStatus}>
@@ -26,14 +26,14 @@ function Now() {
             className={styles.buttonFavorite}
             onClick={() => dispatch(deleteFavoriteCity(city))}
           >
-            <img src="src/assets/img/shaped.png" alt="shaped" />
+            <img src="./img/shaped.png" alt="shaped" />
           </button>
         ) : (
           <button
             className={styles.buttonFavorite}
             onClick={() => dispatch(setFavoriteCity(city))}
           >
-            <img src="src/assets/img/shape.png" alt="shape" />
+            <img src="./img/shape.png" alt="shape" />
           </button>
         )}
       </div>

@@ -14,10 +14,16 @@ function App() {
       <Header></Header>
       <div className={styles.windows}>
         <Routes>
-          <Route path="/" element={<LeftWindow />}>
-            <Route path="/now" element={<Now></Now>}></Route>
-            <Route path="/details" element={<Details></Details>}></Route>
-            <Route path="/forecast" element={<Forecast></Forecast>}></Route>
+          <Route path="/Weather/" element={<LeftWindow />}>
+            <Route path="/Weather/now" element={<Now></Now>}></Route>
+            <Route
+              path="/Weather/details"
+              element={<Details></Details>}
+            ></Route>
+            <Route
+              path="/Weather/forecast"
+              element={<Forecast></Forecast>}
+            ></Route>
           </Route>
         </Routes>
         <RightWindow></RightWindow>

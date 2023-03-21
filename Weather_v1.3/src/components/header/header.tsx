@@ -25,7 +25,7 @@ function Header() {
     <form className={styles.search} onSubmit={(e) => handleSubmit(e)}>
       <input type="text" defaultValue={name} placeholder="Город" />
       <button className={styles.buttonSearch}>
-        <img src="src/assets/img/search.png" alt="Поиск" />
+        <img src="./img/search.png" alt="Поиск" />
       </button>
     </form>
   );
